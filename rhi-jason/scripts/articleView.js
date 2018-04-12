@@ -38,13 +38,13 @@ articleView.handleAuthorFilter = function () {
     // REVIEW: Inside this function, "this" is the element that triggered the event handler function we are defining. "$(this)" is using jQuery to select that element (analogous to event.target that we have seen before), so we can chain jQuery methods onto it.
 
     if ($(this).val()) {
-      // TODO: If the <select> menu was changed to an option that has a value (DONE)
+      // TODO: If the <select> menu was changed to an option that has a value (this^)
 
       // we first need to hide all the articles
-      $('#articles').hide();
+      $('.tab-content').hide();
 
       // then show just the ones that match for the author that was selected.
-      $('#articles').show();
+      $('').show();
 
       // Use an "attribute selector" to find those articles, and fade them in for the reader.
 
@@ -57,6 +57,7 @@ articleView.handleAuthorFilter = function () {
 };
 
 articleView.handleCategoryFilter = function () {
+
   // TODO: Just like we do for #author-filter above, we should handle change events on the #category-filter element.
   // When an option with a value is selected, hide all the articles, then reveal the matches.
   // When the blank (default) option is selected, show all the articles, except for the template.
