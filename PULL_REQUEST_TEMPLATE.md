@@ -2,7 +2,7 @@
 **Today, _ and _ paired together. It took about _**
 
 #### Reflect and summarize on your process for each `TODO` item :  
-  1. First, we started on ...
+  1. First, we started on making the concatenations into template literals
   2. Next, we ...
   3. 
 
