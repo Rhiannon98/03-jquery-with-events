@@ -44,7 +44,8 @@ articleView.handleAuthorFilter = function () {
       $('.tab-content').hide();
 
       // then show just the ones that match for the author that was selected.
-      $('').show();
+      // $([data-attribute*=authorName]).show();
+      // $( "a[hreflang|='en']" ).css( "border", "3px dotted green" );
 
       // Use an "attribute selector" to find those articles, and fade them in for the reader.
 
