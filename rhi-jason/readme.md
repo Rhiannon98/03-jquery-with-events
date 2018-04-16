@@ -19,7 +19,7 @@ languages used:
 --> jQuery added for extra easy useage of JS by providing shortcuts.
 
 ## change log ##
-
+https://github.com/Rhiannon98/03-jquery-with-events/commits/redo-rhi 
 
 ## credits and collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application -->
